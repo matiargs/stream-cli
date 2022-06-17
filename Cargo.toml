@@ -1,0 +1,9 @@
+[package]
+name = "stream-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "3.1.18", features = ["derive"] }
+chrono = "0.4.0"
+url = "2.2.2"
